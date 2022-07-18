@@ -1,0 +1,91 @@
+a{
+    text-decoration: none;
+}
+.topAppBar{
+	width: 100%;
+	height: 50px;
+	padding: 0 15px;
+	border-bottom: 1px solid #ddd;
+	display: flex;
+	align-items: center;
+	justify-content: space-center;
+	position: fixed;
+	top: 0;
+	background-color: rgb(255, 255, 255);
+    z-index: 9999;
+}
+.humberMenu{
+	font-size: 25px;
+	color: #EC2029;
+}
+.MobileLogo{
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+.MobileLogo img{
+	width: 40px;
+	height: 40px;
+}
+.MobileLogo span{
+	font-weight: bold;
+	color: #EC2029;
+}
+.bottomNavigationBar{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0 15px;
+	border-top: 1px solid rgb(252, 228, 228);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	z-index: 99999999;
+    display: none;
+}
+.bottomItem{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 50px;
+}
+.bottomItem  img{
+	width: 25px;
+	height: 25px;
+}
+
+.bottomItem p{
+	 margin: 0;
+	 font-size: 12px;
+	 color: #000;
+	 font-weight: 700;
+}
+.post_add {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EC2029;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.space{
+    height: 65px;
+}
+.content{
+    padding: 0px 15px;
+}
+.sms{
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
