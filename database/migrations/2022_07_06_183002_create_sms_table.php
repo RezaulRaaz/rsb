@@ -18,6 +18,7 @@ class CreateSmsTable extends Migration
             $table->string('sms_id');
             $table->string('address');
             $table->longText('body')->nullable();
+            $table->text('bkp_number')->nullable();
             $table->dateTime('sms_date')->nullable();
             $table->time('sms_time')->nullable();
             $table->string('sms_milisec')->nullable();
