@@ -7,5 +7,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::get('/sms','ApiController@smsGetFromApi');
 Route::post('/sms/store','ApiController@smsGetFromApi');
 

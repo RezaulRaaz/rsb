@@ -10,7 +10,7 @@
     'locale' => 'en',
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
-    'key' => 'base64:CV5Yl2Ou9jJb8Y60WpwxUvt7J2cHsagbMJjoc9jMiHY=',
+    'key' => 'base64:VpBTzzjaCJI9R909bbHymg4UvaXXLIZBFQGpjJqd1E4=',
     'cipher' => 'AES-256-CBC',
     'providers' => 
     array (
@@ -184,7 +184,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'D:\\Programming\\www\\rsb\\storage\\framework/cache/data',
+        'path' => 'D:\\anwar-ullah-9698\\www\\rsb\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -355,12 +355,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\Programming\\www\\rsb\\storage\\app',
+        'root' => 'D:\\anwar-ullah-9698\\www\\rsb\\storage\\app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\Programming\\www\\rsb\\storage\\app/public',
+        'root' => 'D:\\anwar-ullah-9698\\www\\rsb\\storage\\app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
@@ -378,7 +378,7 @@
     ),
     'links' => 
     array (
-      'D:\\Programming\\www\\rsb\\public\\storage' => 'D:\\Programming\\www\\rsb\\storage\\app/public',
+      'D:\\anwar-ullah-9698\\www\\rsb\\public\\storage' => 'D:\\anwar-ullah-9698\\www\\rsb\\storage\\app/public',
     ),
   ),
   'hashing' => 
@@ -413,13 +413,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'D:\\Programming\\www\\rsb\\storage\\logs/laravel.log',
+        'path' => 'D:\\anwar-ullah-9698\\www\\rsb\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'D:\\Programming\\www\\rsb\\storage\\logs/laravel.log',
+        'path' => 'D:\\anwar-ullah-9698\\www\\rsb\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -470,7 +470,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'D:\\Programming\\www\\rsb\\storage\\logs/laravel.log',
+        'path' => 'D:\\anwar-ullah-9698\\www\\rsb\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -536,7 +536,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'D:\\Programming\\www\\rsb\\resources\\views/vendor/mail',
+        0 => 'D:\\anwar-ullah-9698\\www\\rsb\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -641,7 +641,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'D:\\Programming\\www\\rsb\\storage\\framework/sessions',
+    'files' => 'D:\\anwar-ullah-9698\\www\\rsb\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -661,9 +661,9 @@
   array (
     'paths' => 
     array (
-      0 => 'D:\\Programming\\www\\rsb\\resources\\views',
+      0 => 'D:\\anwar-ullah-9698\\www\\rsb\\resources\\views',
     ),
-    'compiled' => 'D:\\Programming\\www\\rsb\\storage\\framework\\views',
+    'compiled' => 'D:\\anwar-ullah-9698\\www\\rsb\\storage\\framework\\views',
   ),
   'flare' => 
   array (

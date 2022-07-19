@@ -23,19 +23,19 @@ class ApiController extends Controller
         */
 
         date_default_timezone_set("Asia/Dhaka");
-        $data = json_decode($request->data);
+        $data = json_decode($request->data, true);
         $smsBank = [];
         if (count($data) > 0) {
             foreach ($data as $dt) {
-                if(Sms::where('body','LIKE','%%'.$dt->body.'%%')->count() == 0){
+                if(Sms::where('body','LIKE','%%'.$dt['body'].'%%')->count() == 0){
                     array_push($smsBank, [
-                        'sms_id' => $dt->sms_id,
+                        'sms_id' => $dt['sms_id'],
                         'bkp_number'=> $request->backupNumber,
-                        'address' => $dt->address,
-                        'body' => $dt->body,
-                        'sms_date' => date("Y-m-d H:i:s", ($dt->sms_date / 1000)),
-                        'sms_time' => date("H:i:s", ($dt->sms_date / 1000)),
-                        'sms_milisec' => $dt->sms_date,
+                        'address' => $dt['address'],
+                        'body' => $dt['body'],
+                        'sms_date' => date("Y-m-d H:i:s", ($dt['sms_date'] / 1000)),
+                        'sms_time' => date("H:i:s", ($dt['sms_date'] / 1000)),
+                        'sms_milisec' => $dt['sms_date'],
                     ]);
                 }
             }
